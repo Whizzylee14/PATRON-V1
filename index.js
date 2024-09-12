@@ -79,13 +79,13 @@ const ryoroyko = ryoroykoConnect({
 })
 
     if (usePairingCode && !ryoroyko.authState.creds.registered) {
-    say(`ZxV\nV4\n`, {
+    say(`PATRON\nV1\n`, {
         font: 'block',
         align: 'center',
         gradient: [randomcolor, randomcolor]
     })
 
-say(`Create By Thezetetsuboxygen\nYOUTUBE : Thezetetsuboxygen\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
+say(`Created By 𝙿𝙰𝚃𝚁𝙾𝙽\nYOUTUBE : itzpatron1\nTelegram : https://t.me/textpatron_bot\nInstagram : justt.patron`, {
   font: 'console',
   align: 'center',
   gradient: [randomcolor, randomcolor]
@@ -226,23 +226,23 @@ ryoroyko.setStatus = (status) => {
                 } else ryoroyko.end(`Unknown DisconnectReason: ${reason}|${connection}`)
             }
             if (update.connection == "connecting" || update.receivedPendingNotifications == "false") {
-                console.log(color(`Mengkoneksikan`,`${randomcolor}`)) //Console-1
+                console.log(color(`Connecting`,`${randomcolor}`)) //Console-1
             }
             
             if (update.connection == "open" || update.receivedPendingNotifications == "true") {
-    say(`ZxV\nV4\n`, {
+    say(`PATRON\nV1\n`, {
         font: 'block',
         align: 'center',
         gradient: [randomcolor, randomcolor]
     })
-    say(`Create By Thezetetsuboxygen\nYOUTUBE : Thezetetsuboxygen\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
+    say(`Created By 𝙿𝙰𝚃𝚁𝙾𝙽\nYOUTUBE : itzpatron1\nTelegram : https://t.me/textpatron_bot\nInstagram : justt.patron`, {
     font: 'console',
     align: 'center',
     gradient: [randomcolor, randomcolor]
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`2348133729715@s.whatsapp.net`, { text: `*[🚹] •𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 CONNECTED✅*`})
+ryoroyko.sendMessage(`2347041039367@s.whatsapp.net`, { text: `*[🚹] •𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 CONNECTED✅*`})
             }
 
         } catch (err) {
